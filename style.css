@@ -1,0 +1,68 @@
+/* Heading */
+h1 {
+    color: black;
+    font-size: 30px;
+}
+
+/* Paragraph */
+p {
+    color: green ;
+}
+#header-2 {
+    color: #d0ff00;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+/* Global styles */
+body{
+    background-color: rgb(204, 252, 228); /* invalid keyword, see note below */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Box model */
+.box-model {
+   
+     display: flex;
+    gap: 10px; /* space between boxes */
+    justify-content: center; /* centers boxes horizontally */
+    align-items: center; /* centers boxes vertically */
+}
+.box {
+    width: 350px;
+    height: 300px;
+    background-color: rgb(10, 245, 155);
+    margin: 5px;
+    border: 3px solid black;
+    border-radius :20px;
+}
+
+.box p {
+    color: rgb(64, 246, 9); /* "none" is invalid */
+    font-size: 20px;
+    text-align: center;
+    font-style: italic; /* use font-style instead of font-weight */
+}
+.bottom-button {
+    text-align: center;
+    margin: 40px 0;  /* space above and below */
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007BFF;  /* blue background */
+    color: white;               /* white text */
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 30px;        /* rounded button */
+    text-decoration: none;      /* remove underline */
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;  /* darker blue on hover */
+}
+
