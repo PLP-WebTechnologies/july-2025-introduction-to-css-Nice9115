@@ -1,4 +1,4 @@
-mj# 🎨 Assignment: CSS Basics & The Box Model
+ 🎨 Assignment: CSS Basics & The Box Model
 
 ## Overview
 
